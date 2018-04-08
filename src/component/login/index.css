@@ -1,0 +1,31 @@
+#navR {
+  height: 50px;
+  background: #1c2635;
+  color: white;
+  line-height: 50px;
+  position: relative; }
+  #navR h1 {
+    float: left;
+    width: 70px;
+    padding-left: 10px;
+    margin-left: 150px; }
+    #navR h1 img {
+      width: 80px; }
+  #navR .iconfont {
+    font-size: 22px;
+    position: absolute;
+    left: 10px;
+    color: #fff; }
+
+#section1 {
+  margin-top: 40px; }
+  #section1 span {
+    margin-left: 20px;
+    color: #666; }
+    #section1 span a {
+      color: #666;
+      text-decoration: none; }
+  #section1 p {
+    color: #666;
+    margin-left: 20px;
+    margin-top: 20px; }

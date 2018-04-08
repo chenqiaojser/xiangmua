@@ -1,0 +1,10 @@
+aside {
+  position: fixed;
+  left: 0px;
+  top: 50px;
+  width: 50%;
+  height: 100%;
+  color: #fff;
+  background: #000; }
+  aside ul li {
+    padding: 10px; }

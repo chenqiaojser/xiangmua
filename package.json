@@ -1,0 +1,42 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "node-sass-chokidar": "^1.2.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2"
+  },
+  "devDependencies": {
+    "react-scripts": "1.1.1"
+  },
+  "scripts": {
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": {
+    "/Service": {
+      "target": "http://m.mtime.cn",
+      "host": "m.mtime.cn",
+      "changeOrigin": true
+    },
+    "/register":{
+       "target": "http://localhost:8000",
+       "host": "localhost:8000",
+       "changeOrigin": true
+    },
+    "/login":{
+       "target": "http://localhost:8000",
+       "host": "localhost:8000",
+       "changeOrigin": true
+    }
+  }
+ 
+}
